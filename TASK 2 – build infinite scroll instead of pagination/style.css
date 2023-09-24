@@ -1,0 +1,69 @@
+.features--show-element-staggering .ProductList--grid .ProductItem {
+	visibility: visible !important;
+}
+
+.Pagination {
+	display: none;
+}
+
+.__info-message {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 50px 0;
+}
+
+.Popover__Value.is-selected {
+	color: #f00 !important;
+}
+
+.__loader-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.__loader-component {
+  width: 75px;
+  height: 75px;
+  margin: 0;
+  background: transparent;
+  border-top: 4px solid #009688;
+  border-right: 4px solid transparent;
+  border-radius: 50%;
+  -webkit-animation: 1s spin linear infinite;
+  animation: 1s spin linear infinite;
+}
+
+
+.__product-filert-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 30px;
+}
+
+.__product-filert-container > div {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.__product-filert-container > div p:not(:last-child) {
+	margin-top: 15px;
+}
+
+.__product-filert-container select {
+	border: 0;
+	
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
